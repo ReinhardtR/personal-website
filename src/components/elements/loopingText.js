@@ -3,9 +3,9 @@ import React from "react";
 const textArray = [
   "Pog",
   "Yo",
+  "Maybe change theme?",
   "PepeLaugh",
-  "Sup",
-  "Boi",
+  "Sup Boi",
   "Press a Button",
   "Dude...",
 ];
