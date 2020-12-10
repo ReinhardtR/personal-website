@@ -1,6 +1,14 @@
 import React from "react";
 
-const textArray = ["Pog", "Yo", "PepeLaugh", "Sup"];
+const textArray = [
+  "Pog",
+  "Yo",
+  "PepeLaugh",
+  "Sup",
+  "Boi",
+  "Press a Button",
+  "Dude...",
+];
 
 export default class LoopingText extends React.Component {
   constructor() {
@@ -17,7 +25,7 @@ export default class LoopingText extends React.Component {
       } else {
         this.setState({ index: 0 });
       }
-    }, 850);
+    }, 1500);
   }
 
   componentDidMount() {

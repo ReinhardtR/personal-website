@@ -9,7 +9,7 @@ const Button = ({ text, width, height, fontSize }) => {
       hover:border-2 hover:border-second hover:bg-white
       hover:bg-gradient-to-r hover:from-first hover:to-second
       transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105
-      shadow-2xl`}
+      shadow-lg`}
     >
       {text}
     </button>
