@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ text, width, height, fontSize }) => {
   return (
     <button
-      className={`w-${width} h-${height} text-${fontSize}
+      className={`${width} ${height} ${fontSize}
       rounded-full bg-gradient-to-br from-first to-second
     text-white font-medium flex justify-center items-center 
       hover:border-2 hover:border-second hover:bg-white

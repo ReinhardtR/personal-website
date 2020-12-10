@@ -18,17 +18,17 @@ const Landing = () => {
           <Link to="/personal-website/projects">
             <Button
               text={"PROJECTS"}
-              width={"36"}
-              height={"12"}
-              fontSize={"2xl"}
+              width={"w-36"}
+              height={"h-12"}
+              fontSize={"text-2xl"}
             />
           </Link>
           <Link to="/personal-website/socials">
             <Button
               text={"SOCIALS"}
-              width={"36"}
-              height={"12"}
-              fontSize={"2xl"}
+              width={"w-36"}
+              height={"h-12"}
+              fontSize={"text-2xl"}
             />
           </Link>
         </div>
