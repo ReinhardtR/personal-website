@@ -29,7 +29,7 @@ export default class DarkModeSwitch extends React.Component {
         }
         checked={this.state.darkMode}
         size={"5rem"}
-        speed={2}
+        speed={3}
       />
     );
   }
