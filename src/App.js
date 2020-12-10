@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div className="font-body">
       <Router>
-        <Landing path="/" />
-        <Projects path="projects" />
-        <Socials path="socials" />
+        <Landing path="/personal-website" />
+        <Projects path="/personal-website/projects" />
+        <Socials path="/personal-website/socials" />
       </Router>
     </div>
   );

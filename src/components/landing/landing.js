@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "@reach/router";
 import Button from "../elements/button";
 import DarkModeSwitch from "../elements/darkModeToggle";
-import LoopingText from "../functions/loopingText";
+import LoopingText from "../elements/loopingText";
 
 const Landing = () => {
   return (
@@ -15,7 +15,7 @@ const Landing = () => {
           <LoopingText />
         </div>
         <div className="w-full flex justify-evenly flex-grow-1 mb-5 text-2xl">
-          <Link to="/projects">
+          <Link to="/personal-website/projects">
             <Button
               text={"PROJECTS"}
               width={"36"}
@@ -23,7 +23,7 @@ const Landing = () => {
               fontSize={"2xl"}
             />
           </Link>
-          <Link to="/socials">
+          <Link to="/personal-website/socials">
             <Button
               text={"SOCIALS"}
               width={"36"}

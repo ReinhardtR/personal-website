@@ -12,7 +12,7 @@ export default class LoopingText extends React.Component {
 
   loopThroughArray() {
     setInterval(() => {
-      if (this.state.index < textArray.length-1) {
+      if (this.state.index < textArray.length - 1) {
         this.setState({ index: this.state.index + 1 });
       } else {
         this.setState({ index: 0 });
@@ -25,6 +25,10 @@ export default class LoopingText extends React.Component {
   }
 
   render() {
-    return <div className="text-white text-2xl">{textArray[this.state.index]}</div>;
+    return (
+      <div className="text-blue dark:text-white text-2xl">
+        {textArray[this.state.index]}
+      </div>
+    );
   }
 }
