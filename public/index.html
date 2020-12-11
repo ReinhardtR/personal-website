@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#000000" />
   <title>Reinhardt Rijna</title>
   <script>
-    if (localStorage.theme === 'dark') {
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.querySelector('html').classList.add('dark')
     } else {
       document.querySelector('html').classList.remove('dark')
