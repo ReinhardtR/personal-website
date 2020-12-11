@@ -6,13 +6,18 @@ module.exports = {
       colors: {
         first: "#6EE2F5",
         second: "#6454F0",
-        darkBlue: "#0D1117",
+        darkBlue: "#161B22",
         darkGray: "#2c2c2e",
-        GitHub: "#161B22",
-        Projects: "#00FF5B",
       },
       backgroundImage: (theme) => ({
-        "main-gradient": "linear-gradient(#6EE2F5, #6454F0)",
+        "main-gradient": "linear-gradient(to bottom right, #6EE2F5, #6454F0)",
+        "snake-gradient": "linear-gradient(to bottom right, #81FBB8, #28C76F)",
+        "sorting-gradient":
+          "linear-gradient(to bottom right, #ABDCFF, #0396FF)",
+        "pathfinding-gradient":
+          "linear-gradient(to bottom right, #E2B0FF, #9F44D3)",
+        "weather-gradient":
+          "linear-gradient(to bottom right, #FCCF31, #F55555)",
       }),
     },
     fontFamily: {

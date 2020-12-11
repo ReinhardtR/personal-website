@@ -15,27 +15,18 @@ const Projects = () => {
         </h1>
         <div className="h-full flex flex-grow flex-wrap justify-center items-center m-2 text-2xl">
           <ProjectCard
-            title={"Snake Game"}
+            title={"Snake"}
             link={"https://reinhardtr.github.io/snake"}
-            bgStyle={"bg-gradient-to-br from-first to-second"}
+            bgStyle={"bg-snake-gradient"}
             icon={CubeIcon}
             desc={
               "I recreated the famous retro game Snake. The game uses Google Auth and Gmail, to connect the users to a live Leaderboard via. Firebase."
             }
           />
           <ProjectCard
-            title={"Sorting Visualizer"}
-            link={"https://reinhardtr.github.io/sorting-visualizer"}
-            bgStyle={"bg-gradient-to-br from-first to-second"}
-            icon={ArrayIcon}
-            desc={
-              "I created a tool, that visualizes the process of a sorting algorithm, sorting randomly generetaed arrays, at a user defined speed."
-            }
-          />
-          <ProjectCard
             title={"Pathfinding Visualizer"}
             link={"https://reinhardtr.github.io/pathfinding-visualizer"}
-            bgStyle={"bg-gradient-to-br from-first to-second"}
+            bgStyle={"bg-pathfinding-gradient"}
             icon={PathIcon}
             desc={
               "I recreated the famous retro game Snake. The game uses Google Auth and Gmail, to connect the users to a live Leaderboard via. Firebase."
@@ -44,10 +35,19 @@ const Projects = () => {
           <ProjectCard
             title={"Stellar Weather"}
             link={"https://reinhardtr.github.io/stellarweather"}
-            bgStyle={"bg-gradient-to-br from-first to-second"}
+            bgStyle={"bg-weather-gradient"}
             icon={WeatherIcon}
             desc={
               "I recreated the famous retro game Snake. The game uses Google Auth and Gmail, to connect the users to a live Leaderboard via. Firebase."
+            }
+          />
+          <ProjectCard
+            title={"Sorting Visualizer"}
+            link={"https://reinhardtr.github.io/sorting-visualizer"}
+            bgStyle={"bg-sorting-gradient"}
+            icon={ArrayIcon}
+            desc={
+              "I created a tool, that visualizes the process of a sorting algorithm, sorting randomly generetaed arrays, at a user defined speed."
             }
           />
         </div>

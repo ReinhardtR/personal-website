@@ -9,7 +9,7 @@ import { ReactComponent as SocialsLogo } from "../../assets/socials.svg";
 const Landing = () => {
   return (
     <>
-      <div className="w-auto h-auto m-2 bg-white dark:bg-GitHub transition duration-300 rounded-xl flex flex-col justify-between items-center shadow-2xl">
+      <div className="w-auto h-auto m-2 bg-white dark:bg-darkBlue transition duration-300 rounded-xl flex flex-col justify-between items-center shadow-2xl">
         <h1 className="m-5 text-darkBlue dark:text-white font-bold text-5xl text-center">
           Reinhardt Alexander Rijna
         </h1>

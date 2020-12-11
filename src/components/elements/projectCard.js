@@ -20,14 +20,14 @@ export const ProjectCard = ({
       <div
         className={`h-full rounded-xl flex flex-col justify-between items-center text-center`}
       >
-        <div className="text-5xl text-white dark:text-darkBlue font-bold">
+        <div className="h-1/4 text-5xl text-white dark:text-darkBlue font-bold">
           {title}
         </div>
         <ReactSVG
           src={icon}
-          className="w-2/3 text-white dark:text-darkBlue fill-current group-hover:animate-bounce"
+          className="w-2/3 text-white dark:text-darkBlue fill-current animaite-none transform group-hover:-translate-y-1 group-hover:scale-105"
         />
-        <div className="transition duration-300 opacity-0 group-hover:opacity-100 text-sm font-medium text-white dark:text-darkBlue">
+        <div className="transition duration-200 opacity-0 group-hover:opacity-100 text-sm font-medium text-white dark:text-darkBlue">
           {desc}
         </div>
       </div>
