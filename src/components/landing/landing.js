@@ -8,17 +8,18 @@ import { ReactComponent as SocialsLogo } from "../../assets/socials.svg";
 
 const Landing = () => {
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-first to-second flex flex-col justify-center items-center">
-      <div className="w-auto mx-2 bg-white dark:bg-GitHub transition duration-300 rounded-xl flex flex-col justify-between items-center shadow-2xl">
+    <>
+      <div className="w-auto h-auto m-2 bg-white dark:bg-GitHub transition duration-300 rounded-xl flex flex-col justify-between items-center shadow-2xl">
         <h1 className="m-5 text-darkBlue dark:text-white font-bold text-5xl text-center">
           Reinhardt Alexander Rijna
         </h1>
-        <div className="w-full flex flex-col justify-center items-center sm:flex-row sm:justify-evenly flex-grow-1 m-2 mb-5 text-2xl">
+        <div className="w-full flex flex-wrap justify-center items-center m-2 mb-5 text-2xl">
           <Link to="/personal-website/projects" className="m-2">
             <Card
               width={"w-48"}
               height={"h-64"}
               title={"Projects"}
+              titleSize={"text-3xl"}
               icon={
                 <GitHubLogo
                   className="fill-current text-white dark:text-darkBlue"
@@ -33,6 +34,7 @@ const Landing = () => {
               width={"w-48"}
               height={"h-64"}
               title={"Socials"}
+              titleSize={"text-3xl"}
               icon={
                 <SocialsLogo
                   className="fill-current text-white dark:text-darkBlue"
@@ -50,7 +52,7 @@ const Landing = () => {
       <div className="sm:absolute sm:top-5 sm:right-5 my-5">
         <DarkModeSwitch />
       </div>
-    </div>
+    </>
   );
 };
 
