@@ -29,7 +29,7 @@ const Landing = () => {
               }
             />
           </Link>
-          <Link to="/personal-website/socials" className="m-2">
+          {/* <Link to="/personal-website/socials" className="m-2">
             <Card
               width={"w-48"}
               height={"h-64"}
@@ -43,7 +43,7 @@ const Landing = () => {
                 />
               }
             />
-          </Link>
+          </Link> */}
         </div>
         <div className="animate-bounce mb-1">
           <LoopingText />

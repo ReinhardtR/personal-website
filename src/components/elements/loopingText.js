@@ -1,13 +1,12 @@
 import React from "react";
 
 const textArray = [
-  "Pog",
-  "Yo",
-  "Maybe change theme?",
-  "PepeLaugh",
-  "Sup Boi",
-  "Press a Button",
-  "Dude...",
+  "Hello!",
+  "Welcome to my website.",
+  "You can change the theme!",
+  "Or click on the button.",
+  "There you'll find my projects.",
+  "Have fun :)",
 ];
 
 export default class LoopingText extends React.Component {

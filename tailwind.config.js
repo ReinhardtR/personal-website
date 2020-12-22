@@ -18,6 +18,8 @@ module.exports = {
           "linear-gradient(to bottom right, #E2B0FF, #9F44D3)",
         "weather-gradient":
           "linear-gradient(to bottom right, #FCCF31, #F55555)",
+        "netflix-gradient":
+          "linear-gradient(to bottom right, #b31717, #ff2e1f)",
       }),
     },
     fontFamily: {
